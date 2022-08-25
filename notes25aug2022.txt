@@ -1,0 +1,8 @@
+Operation on prefix and postfix operator
+1. prefix ++
+2. prefix --
+3. postfix ++
+4. postfix --
+
+Theory>
+What is operator? Example and difference

@@ -6,3 +6,8 @@ Operation on prefix and postfix operator
 
 Theory>
 What is operator? Example and difference
+
+Logical Operator || and &&
+
+Theory>
+Definition and example

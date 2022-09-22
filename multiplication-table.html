@@ -1,0 +1,33 @@
+<!Document html>
+<html>
+  <head>
+    <title>Multiplication Table</title>
+  </head>
+  <body>
+    <table id="table">
+      <tr>
+	<th>Number</th>
+	<th>Times</th>
+	<th>Result</th>
+      </tr>
+      
+    </table>
+  </body>
+  <script>
+    var value = prompt("Enter a value:");
+    var table = document.getElementById("table");
+    for (var i = 1; i < 11; i++)
+    {
+	var multiple = value * i;
+	var row = table.insertRow(i);
+	var number = row.insertCell(0);
+	var times = row.insertCell(1);
+	var result = row.insertCell(2);
+	number.innerHTML = value;
+	times.innerHTML = i;
+	result.innerHTML = multiple;
+    }	
+  </script>
+</html>
+
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Table</title>
+  </head>
+  <body>
+    <table id="table">
+      <tr>
+	<th>Value</th>
+	<th>Sqrt</th>
+	<th>Crt</th>
+      </tr>
+      <style type="text/css">
+	table
+	{
+	    border: 1px solid;
+	}
+	</style>
+    </table>
+
+    <script>
+      var value = prompt("Enter a value:");
+      var square_root = Math.sqrt(value);
+      var cube_root = Math.cbrt(value);
+      var table = document.getElementById("table");
+      var row = table.insertRow(1);
+      var value2 = row.insertCell(0);
+      var sqrt_n = row.insertCell(1);
+      var crt_n = row.insertCell(2);
+      value2.innerHTML = value;
+      sqrt_n.innerHTML = square_root;
+      crt_n.innerHTML = cube_root;
+      console.log(value);
+      console.log(square_root);
+      console.log(cube_root);
+      </script>
+    </body>
+  </html>
